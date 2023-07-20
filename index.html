@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Selectable Boxes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0/css/select2.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="box">
+    <h2>Box 1</h2>
+    <select id="options1" class="options">
+      <option value="Option 1">Option 1</option>
+      <option value="Option 2">Option 2</option>
+      <option value="Option 3">Option 3</option>
+    </select>
+  </div>
+
+  <div class="box">
+    <h2>Box 2</h2>
+    <select id="options2" class="options">
+      <option value="Option A">Option A</option>
+      <option value="Option B">Option B</option>
+      <option value="Option C">Option C</option>
+    </select>
+  </div>
+
+  <!-- Add more boxes as needed -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0/js/select2.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
